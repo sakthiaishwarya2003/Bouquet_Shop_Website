@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Your Wonderland </title>
+    <style>
+        li {
+            float: right;
+        }
+        
+        li a:hover {
+            background-color: #cad8f7;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f9daf3;
+        }
+        
+        li a {
+            display: block;
+            color: rgb(9, 9, 9);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #f9daf3;
+        }
+        
+        li a:hover {
+            background-color: #cad8f7;
+        }
+
+        .newsletter{
+            color: #FFA1C6;
+            text-align: center;
+            padding: 35px 15px ;
+            text-decoration: none;
+            background-color: #f9f7f9;   
+        }
+
+        h1{
+            color: #FFA1C6;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #f9f7f9;   
+
+        }
+
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  flex-basis: 300px;
+  padding: 20px;
+  background-color: #f9daf3;
+  border-radius: 5px;
+}
+
+.category img {
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+.category h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.category a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #cad8f7;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  text-align: justify;
+
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 40px;
+
+}
+
+.about-image {
+  flex: 1;
+  text-align: justify;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #FFA1C6
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.contact-info {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #FFA1C6
+
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+}
+
+.contact-form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #FFA1C6
+
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #FFA1C6;
+}
+
+.contact-form button[type="submit"] {
+  padding: 10px 10px;
+  background-color: #f9daf3;
+  color: #000000;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 0 auto; /* Center align the button */
+  width: 120px; /* Adjust the width as desired */
+
+}
+
+
+    </style>
+
+</head>
+
+<body style="background-color:#cad8f7;">
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#category">Category</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+        <img src="f1.PNG" alt="flower image" width=300px>
+        <img src="girl.png" alt="handwriting image" width=800px>    
+       
+        <section class="newsletter">
+            <h2>Subscribe - for weekly delivery</h2>
+
+            <form>
+              <input type="textarea" placeholder="Enter your delivery address"><br><br>
+              <button type="submit">Subscribe</button>
+            </form>
+
+            <br>            <br>
+            <h1>Categories</h1>
+                <div class="category-container">
+                  <div class="category">
+                    <img src="1.jfif" alt="Category 1">
+                    <h3>Serene Serenade</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                  <div class="category">
+                    <img src="2.jfif" alt="Category 2">
+                    <h3>Sweetlings</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                  <div class="category">
+                    <img src="3.jfif" alt="Category 3">
+                    <h3>Azure Breeze</h3>
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </section>
+
+              <section class="about-section">
+                <div class="about-content">
+                  <h2>About Us</h2>
+                  <p>Welcome to YOUR WONDERLAND, where floral dreams come to life. We are a passionate team of florists dedicated to creating stunning arrangements that evoke emotions and bring joy to every occasion. With our meticulous attention to detail and commitment to using the finest blooms, we craft each bouquet with love and artistry.</p>
+                  <p>At our shop, we believe in the language of flowers and their ability to convey sentiments. Whether you're celebrating a special milestone, expressing love and appreciation, or simply adding a touch of beauty to your surroundings, our carefully curated collection offers a diverse range of options to suit your unique style and preferences.</p>
+                  <p>With years of experience in the floral industry, we have honed our skills to ensure every arrangement is a masterpiece. From classic elegance to modern innovation, we blend traditional techniques with contemporary designs, creating unforgettable floral experiences.</p>
+                  <p>Our commitment extends beyond providing exceptional bouquets. We strive to provide impeccable customer service, ensuring your journey with Blossom Haven is delightful from start to finish. We are here to assist you in selecting the perfect arrangement, answering any questions you may have, and making your experience with us memorable.</p>
+                  <p>Thank you for choosing us. Join us on this floral adventure, and let us be a part of your cherished moments.</p>
+                </div>
+                <div class="about-image">
+                  <img src="hello.jfif" alt="About Image" height="550" width="560">
+                </div>
+              </section>
+              <section class="contact-section">
+                <div class="contact-info">
+                  <h2>Contact Us</h2>
+                  <p>Have a question or need assistance? We're here to help!</p>
+                  <p>Phone: 9876543210</p>
+                  <p>Email: info@yourwonderland.com</p>
+                  <p>Address: 123 abc Street, X-City, YZ-State</p>
+                </div>
+                <div class="contact-form">
+                  <h3>Send us a Message</h3>
+                  <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <button type="submit">Send Message</button>
+                  </form>
+                </div>
+              </section>
+              
+              
+
+
+
+
+
+        
+</body>
+
+</html>
